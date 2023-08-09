@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Sahel;
+    color: #ff0a70;
+  }
+
+  @font-face {
+    font-family: sahel;
+    src: url(Sahel-FD.ttf);
+  }
+
+  body,
+  html {
+    /* background: #ffc4c4; */
+    /* overflow: hidden; */
+    height: 100%;
+    margin: 0;
+    color: #ff0a70;
+
+  }
+  body,
+  html a {
+color: #ff0a70 !important;
+  }
+container-fluid{
+    direction: rtl;
+    /* width: auto; */
+    display: flex;
+	flex-direction: row  !important;
+	justify-content: space-between !important;
+	align-items: center  !important;
+	align-content: stretch;
+    
+}
+.navbar{
+    direction: rtl;
+    /* width: auto; */
+    display: flex;
+	flex-direction: row  !important;
+	justify-content: space-between !important;
+	align-items: center  !important;
+	align-content: stretch;
+    /* float: left; */
+}
+.nav-link {
+    color: black;
+}
+.form-inline{
+    direction: ltr;
+    padding-right: 708px;
+}
+.bg-light{
+    background-color: #ffff !important;
+}
+.form-control{
+    color: #e16ff8 !important;
+    border: 1px solid #ff807a;
+}
+.btn-water{
+    border: 1px solid #ff807a;
+}
+.carousel-inner img {
+    width: 100%;
+    height:500px;
+    padding-top: -100px;
+    
+  }
+
+.navbar a{
+    font-size: 17px;
+    margin: 0 auto;
+    padding: 5px;
+    
+}
+.navbar-brand img {
+    margin-right: -20px;
+
+
+}
+
+@media (min-width: 576px) {
+    .h-sm-100 {
+        height: 100%;
+    }
+}
+.container-fluid {
+    margin-top: px;
+    height: 100%;
+    /* overflow: hidden; */
+    margin-bottom: 0;
+}
+.col{
+    /* direction: rtl; */
+    overflow: hidden;
+}
+.col p{
+    font-size: 1.3rem;
+    line-height: 1.2;
+    padding-right: 1.5rem;
+}
+.col h3{
+    font-size: 3rem;
+    padding-right: 1.5rem;
+    background-color: #ff807a;
+}
+.sidebar {
+    background-color: #f3f0f0;
+    color: #e79d9d;
+    height: 100%;
+    width: 100px;
+    min-width: 100%;
+    text-align: right;
+    -webkit-transition: width,left,right,.5s;
+    transition: width,left,right,.5s;
+    position: relative;
+    z-index: 1009;
+    border-radius: 1rem;
+}
+.form-control {
+    color: #aa312b !important;
+    border: 1px solid #fad7de;
+    /* padding-left: 40px; */
+    direction: rtl;
+}
+.btn-outline-light {
+    border-color: #f7c7c7;
+    color: #ff9797;
+    background: 0 0;
+}
+.form-inline {
+
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #f7c7c7;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+
+
+
+
